@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,300&family=Nunito:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    min-height: 100vh;
+    background-color: #8D99AE;
+    background-size: cover;
+}
+/*navbar*/
+.navbar{
+    position: fixed;
+    background-color:#219EBC;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    height: 60px;
+   
+}
+.navbar .logo{
+    color: rgb(255, 179, 85);
+  display: flex;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 2px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.navbar .logo:hover{
+  color: black;
+}
+.navbar ul{
+    float: right;
+    margin-left: 30px;
+}
+.navbar ul li{
+    display: inline-block;
+   margin-left: 50px;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    color:black;
+    transition: 0.3s;
+}
+.navbar ul li a:hover{
+    color: rgb(255, 179, 85);
+    
+}
+/*Home*/
+#Home{
+    
+    
+    width: 80%;
+    height: 800px;
+    background: url(ABA5AC05-FE4D-48B8-95C7-4B5211338EC0_1_105_c.jpeg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+    align-content: center;
+    margin: 100px;
+}
+ #Home h1{
+    color: rgb(255, 179, 85);
+    background-color:#335C67;
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 30px;
+   
+}
+#Home h3{
+    color: rgb(255, 179, 85);
+    background-color:#335C67;
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+#home .button-1 ,button-2{
+    justify-content: center;
+    align-items: center;
+}
+.button-1{
+    background-color: #335C67;
+    color: rgb(255, 179, 85);
+    border: none;
+    border: 1px solid  #335C67;
+    border-radius: 12px;
+   padding: 10px 20px;
+   margin-top: 40px;
+   margin-left: 40%;
+   transition: 0.3s;
+  
+}
+.button-1:hover{
+    background-color: #30d2ff; 
+    color: white;
+}
+.button-2{
+    background-color: #335C67;
+    color: rgb(255, 179, 85);
+    border: none;
+    border: 1px solid  #335C67;
+    border-radius: 12px;
+   padding: 10px 20px;
+  transition: 0.3s;
+  
+}
+.button-2:hover{
+    background-color: #30d2ff; 
+    color: white;
+}
+/*About me*/
+#Aboutme{
+  margin-top: 50px;
+  width: 80%;
+  height: 800px;
+  background-color: #335C67;
+  margin: 100px;
+}
+#Aboutme .all-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.image, content{
+    flex: 1;
+}
+img{
+    width: 400px;
+    height: 660px;
+    margin-top: 20px;
+}
+#Aboutme h1{
+    color: rgb(255, 179, 85);
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color:#219EBC;
+    height: 660px;
+    margin-top: 20px;
+}
+#Aboutme h3{
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 25px;
+    color:  rgb(255, 179, 85); 
+    text-transform: uppercase;
+
+}
+#Aboutme h4{
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+#Aboutme p{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 18px;
+}
+/*Services*/
+#services{
+    margin-top: 50px;
+    width: 80%;
+    height: 950px;
+    background-color: #335C67;
+    margin: 100px;
+}
+#services h1{
+    color: rgb(255, 179, 85);
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#services img{
+    width: 200px;
+    height: 300px;
+    padding-left: 20px;
+}
+#services .all-content{
+    display: flex;
+}
+.contain,contain{
+    flex: 1;
+}
+#services .all-content button{
+     font-family: Nunito;
+     font-weight:bold ;
+     font-size: 20px;
+     text-transform: uppercase;
+     background-color: #335C67;
+     color: rgb(255, 179, 85);
+     border: none;
+     border: 1px solid  #335C67;
+     border-radius: 12px;
+    padding: 10px 20px;
+   transition: 0.3s;
+}
+
+#services .all-content button:hover{
+    background-color: #30d2ff; 
+    color: white;
+}
+/*Contact me*/
+#Contactme{
+    margin-top: 50px;
+  width: 80%;
+  height: 800px;
+  background-color: #335C67;
+  margin: 100px;
+}
+#Contactme h1{ 
+    color: rgb(255, 179, 85);
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#Contactme form{
+     
+    margin-left: 37%;
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+#name{
+   margin-top: 30px;
+}
+#email{
+   
+}
+ #message{
+    height: 200px;
+    width: 340px;
+    
+}
+#Contactme button{
+        background-color: #219EBC; 
+        color: rgb(255, 179, 85);
+        border: none;
+        border: 1px solid  #335C67;
+        border-radius: 12px;
+       padding: 10px 20px;
+      transition: 0.3s;
+     align-items: center;
+     margin-left: 50%;
+     margin-top: 50px;
+    }
+    #Contactme button:hover{
+        background-color: #30d2ff; 
+        color: white;
+    }
+    #Contactme h2 {
+        font-size: Nunito;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: black;
+        margin-left: 37%;
+        margin-top: 50px; 
+    }
+    #Contactme h5 {
+        font-size: Nunito;
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: black; 
+        margin-left: 37%;
+        margin-top: 50px;
+    }
+    #Contactme p{
+         font-size: Nunito;
+         color:black; 
+         margin-left: 37%;
+         margin-top: 50px;
+    }
+    #Contactme footer{
+        background-color: #219EBC;
+        
+    }
+    
+
+

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+  background-color: #003049; 
+   height: 50px;
+   padding: 20px;
+   margin-top: 0%;
+   position: fixed;
+   position: relative;
+   
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+     padding-bottom: 25px;
+}
+ a{
+   font-size: 1.2rem;
+   display: flex;
+   flex-direction: row;
+   text-decoration: none;
+   padding: 20px 20px;
+   color: white;
+   cursor: pointer;
+}
+a:hover{
+    color:#00f5d4 ;
+}
+/*Home*/
+
+.Home{
+    background-image: url(https://images.pexels.com/photos/1586996/pexels-photo-1586996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 800px;
+    background-size: cover;
+}
+.Home h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+   display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 auto;
+ 
+}
+.Home p{
+    font-size: 25px;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 auto;
+} 
+.Portofolio {
+    background-color: #001d3d;
+}
+.Portofolio .heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.Portofolio img{
+    width: 325px;
+    height: 650px;
+}
+.img-part-1{
+    
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    cursor: pointer;
+}
+.img-part-2{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    padding: 20px;
+    cursor: pointer;
+}
+.img-part-1 .img-part-1:hover{
+    border: 1px solid white;
+}
+
+.Portofolio h1{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.Eduaction{
+    
+    background-color:  #001d3d ;
+}
+.Eduaction h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+   display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+.grid h2{
+    color: #00f5d4;
+    font-size: 25px;
+    font-weight: bold;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 100px;
+    padding-right:10px ;
+    align-content: center;
+    
+}
+.box{
+    background-color: #001123;
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin: 20px;
+
+}
+.About{
+    background-color: #001d3d  ;
+    display: flex;
+    height: 600px;
+    text-align: center;
+}
+.About h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+  text-align: center;
+  
+}
+
+
+
+
